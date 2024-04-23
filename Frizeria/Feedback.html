@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Girassol&family=Karantina:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Feedback</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Date personale</legend>
+        Nume <br />
+        <input type="text" name="Nume" placeholder="Optional" /><br />
+        Prenume <br />
+        <input type="text" name="Prenume" placeholder="Optional" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Experința FRIZERIA</legend>
+        Ai recomanda și altor persoane FRIZERIA? <br />
+        <input type="radio" name="radio" value="r1" />Da
+        <input type="radio" name="radio" value="r2" />Nu <br />
+        <textarea>Așteptăm feeback-ul tău</textarea><br />
+        Adresa de email:<br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Introdu o adresa de email"
+        /><br />
+        Pe o scară de la 1 la 10 cât de mulțumit ai fost de serviciile FRIZERIA?
+        <br />
+        <input type="range" name="range" min="1" max="10" />
+      </fieldset>
+    </form>
+    <input class="submit" type="submit" name="Trimite" value="Trimite" />
+  </body>
+</html>

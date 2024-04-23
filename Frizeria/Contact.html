@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Girassol&family=Karantina:wght@300&display=swap" rel="stylesheet">
+    <title>Contact</title>
+
+<script>
+
+var video = document.getElementById("myVideo");
+
+
+var btn = document.getElementById("myBtn");
+
+
+function myFunction() {
+if (video.paused) {
+video.play();
+btn.innerHTML = "Pause";
+} else {
+video.pause();
+btn.innerHTML = "Play";
+}}
+</script>
+  </head>
+  <body>
+    <embed name="GoodEnough" src="Imagini/Muzic.mp3" loop="false" hidden="true" autostart="true">
+    <video autoplay muted loop id="myVideo">
+      <source src="Imagini/Videotuns.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+      <h1 style="font-size:3vw;font-family:Times New Roman, Times, serif;">Contactează-ne</h1>
+      <p style="font-size:1.5vw">Te așteptăm in locația noastră pentru a-ți schimba viziunea despre hairstyle-ing</p>
+      <address class="date-contact">
+        <h2>FRIZERIA</h2>
+        <pre>
+        www.frizeria.ro
+        Str.Barajului
+        Nr.9 Romania
+        </pre>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+  </video>
+    </div>
+  </body>
+</html>

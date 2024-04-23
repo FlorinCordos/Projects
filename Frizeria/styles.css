@@ -1,0 +1,260 @@
+body{
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: 'Girassol', cursive;
+  background-color:#d4d4aa;
+}
+blockquote{
+font-family: 'Coda Caption', sans-serif;
+position: absolute;
+top:550px;
+right:190px;
+background:black;
+color:white;
+padding: 1px;
+font-weight: lighter;
+font-size: 1vw;
+}
+h1{
+  font-family: 'Karantina', cursive;
+}
+.final{
+  position: absolute;
+  text-align: center;
+  font-size: 1.5vw;
+bottom: 70px;
+left: 40vw;
+}
+.paragrafpg1{
+  text-align: center;
+    font-size: 1.2vw;
+    width: 100%;
+    font-weight: bold;
+  }
+  .buton{
+    position: absolute;
+    bottom: 2vw;
+    right: 50vw;
+    width: 3.6vw;
+    height: 1.7vw;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.1vw;
+    background-color: black;
+  }
+  nav ul{
+    list-style-type: none;
+  }
+  nav li{
+    display: inline-block;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  nav a:link,nav a:visited{
+    width: 13.5vw;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-size: 1vw;
+    color:white;
+  }
+  .meniu{
+  position: absolute;
+    top: 15px;
+    right:280px;
+  background-color: black;
+  }
+  nav a:hover{
+    color:black;
+    background-color: white;
+  }
+  .butoncontact{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+  }
+.alin{
+position: absolute;
+right: 90px;
+top: 200px;
+}
+#Alin{
+text-align:center;
+font-size: 4vw;
+margin-top: 300px;
+}
+.Madalin{
+  position: absolute;
+  left: 90px;
+  top: 800px;
+}
+#Madalin{
+  text-align:center;
+  font-size:4vw;
+  margin-top: 450px;;
+}
+h2{
+  text-align: center;
+}
+.Razvan{
+  position: absolute;
+  right: 90px;
+  top: 1400px;
+}
+#Razvan{
+  text-align:center;
+  font-size: 4vw;
+  margin-top: 500px;;
+}
+.Tamas{
+  position: absolute;
+  left: 90px;
+  top: 2000px;
+}
+#Andrei{
+  text-align:center;
+  font-size:4vw;
+  margin-top: 500px;;
+}
+ul{
+  list-style-type: none;
+}
+.staff1{
+text-decoration: none;
+color: black;
+}
+.staff2{
+text-decoration: none;
+color: black;
+}
+.staff3{
+text-decoration: none;
+color: black;
+}
+.staff4{
+text-decoration: none;
+color: black;
+}
+.staff1:hover{
+  color:white;
+  background-color: black;
+}
+.staff2:hover{
+  color:white;
+  background-color: black;
+}
+.staff3:hover{
+  color:white;
+  background-color: black;
+}
+.staff4:hover{
+  color:white;
+  background-color: black;
+}
+.logo:hover{
+  opacity: 0.5;
+}
+.Titlu{
+  background-image: url("Imagini/Frizerie1.jpg");
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+legend{
+  text-align: center;
+}
+form{
+  margin-top: 120px;
+  max-width: 100%
+  font-size:5vw;
+  background-color: black;
+  color:white;
+}
+.submit{
+  margin-top: 5.2vw;
+  margin-left: 38.7vw;
+background-color: black;
+color:white;
+border-radius: 1%;
+padding: 5px;
+}
+.listaserv{
+  list-style-type: decimal;
+  display: inline-block;
+}
+.listaserv{
+  text-align:left;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.servicii{
+  text-align: center;
+  font-size: 5vw;
+}
+
+.paragrafservicii{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5vw;
+
+}
+
+.paragrafservicii2{
+  font-size: 1.5vw;
+}
+.frizuri{
+  padding: 10px;
+  width: 50%;
+}
+.frizuri23{
+  margin-left: 600px;
+  padding: 5px;
+  width: 50%;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.date-contact{
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+}
+.titlu_principal:hover{
+  transform:scale(1.1);
+}
